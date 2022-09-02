@@ -8,7 +8,7 @@
     <changeSet author="sql" id="01_dept_seq">
       <sqlFile dbms="oracle"
                endDelimiter=";"
-               path="./dept_seq.sql"
+               path="../script/dept_seq.sql"
                relativeToChangelogFile="true"
                splitStatements="true"
                stripComments="false"/>
@@ -16,7 +16,7 @@
     <changeSet author="sql" id="02_dept">
       <sqlFile dbms="oracle"
                endDelimiter=";"
-               path="./dept.sql"
+               path="../script/dept.sql"
                relativeToChangelogFile="true"
                splitStatements="true"
                stripComments="false"/>
