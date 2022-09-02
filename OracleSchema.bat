@@ -1,0 +1,1 @@
+C:\Progra~1\liquibase\liquibase.bat --defaultsFile=".\liquibase.properties"  --changeLogFile=".\ChangeLogs\master.xml" update
